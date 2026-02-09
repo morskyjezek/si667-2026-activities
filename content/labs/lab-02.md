@@ -1,13 +1,4 @@
 +++
-date = '2026-02-08T15:26:08-05:00'
-draft = false
-title = 'Lab 02 Key'
-canvas_link = ''
-categories = ['labs', 'labkey']
-tags = ['labkey']
-+++
-
-+++
 date = '2026-02-08T22:54:47-05:00'
 draft = false
 title = 'Lab 02: Navigating in the Shell'
@@ -35,4 +26,10 @@ For reference, see the [shell slide deck](https://docs.google.com/presentation/d
 
 **Q7.** What have you learned about using the command line? Are there situations or tasks where you imagine this environment to be more (or less) useful than the graphical interface of the Explorer or Finder?
 
-Original lab questions: {{< lab-link >}}.
+## What to Turn In
+
+Turn in a document [here on Canvas]({{< pagevar canvas_link >}}) (plain text, or another format) that has your answers to the questions.
+
+## Key
+
+See the answer key: {{< lab-key-link >}}
