@@ -97,7 +97,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "SI 667 - Winter 2026"
-        logoHomeLink = "/"
+        logoHomeLink = ""
 
       [languages.en.menu]
         #[[languages.en.menu.main]]
