@@ -8,6 +8,9 @@ This site contains information related to SI 667, "Foundations of Digital Curati
 a Master's course at the [University of Michigan School of Information](https://si.umich.edu/),
 as offered in the Winter 2026 term.
 
+The course instructors are Rebecca D. Frank and Jesse A. Johnston.
+For information about the course, or questions, email si667Instructors @ umich.edu.
+
 In this site, you will find information about:
 
 - Course Lab Questions and Solutions
