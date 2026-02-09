@@ -15,7 +15,7 @@ In this site, you will find information about:
 
 ## Labs
 
-{{< section-list "labs" >}}
+{{< category-list "labquestions" >}}
 
 ## Guides
 
