@@ -1,0 +1,5 @@
+{{ $baseName := strings.TrimSuffix "-key" .Page.File.ContentBaseName }}
+{{ $labPage := site.GetPage (printf "/%s/%s" .Page.Section $baseName) }}
+{{ with $labPage -}}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{- end }}

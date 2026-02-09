@@ -1,0 +1,5 @@
+{{ $keyName := printf "%s-key" .Page.File.ContentBaseName }}
+{{ $keyPage := site.GetPage (printf "/%s/%s" .Page.Section $keyName) }}
+{{ with $keyPage -}}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{- end }}
