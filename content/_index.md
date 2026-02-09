@@ -19,4 +19,4 @@ In this site, you will find information about:
 
 ## Guides
 
-Guide list here
+{{< category-list "guides" >}}
