@@ -1,6 +1,7 @@
 ---
 title:      "Running Siegfried & Brunnhilde"
-categories: ['brunnhilde', 'siegfried', 'guides']
+categories: ['guides']
+tags: ['brunnhilde', 'siegfried']
 ---
 
 This page contains the instructions for running tools that can help with file reporting. These are useful tools that can create some of the preservation description information, which might accompany an information package, and to create technical information that can be used for tracking file integrity and duplication.
@@ -17,20 +18,19 @@ All of the activities will use the course's sample files, which you should have 
 
 To install Siegfried, follow the instructions at the tool's site: [https://www.itforarchivists.com/siegfried/#install](https://www.itforarchivists.com/siegfried/#install). These instructions work well if you're using a Unix-style system (such as a Linux machine or Mac OS). The instructions use another tool, HomeBrew, which is a useful utility to manage command line programs, and if you need that, see the program's homepage for good installation instructions (note that it will require an internet connection): [https://brew.sh/](https://brew.sh/).
 
-If you're running on a different style of system (like Windows), the instructions are a bit less specific. If you have had trouble following those instructions, [try these step-by-step instructions for Windows]({{ site.baseurl }}{% post_url 2025-02-09-guide-installing-siegfried-windows-11 %}). Linux systems may require more modifications.
+If you're running on a different style of system, like Windows, the instructions are a bit less specific. If you have had trouble following those instructions, [try these step-by-step instructions for Windows]({{< ref "guides/guide-installing-sf-windows" >}}). Linux systems may require more modifications.
 
 # Install Brunnhilde
 
 Brunnhilde is a python-based tool, so you can install it as you would other Python extensions using `pip`. The process is explained on the tool's site: [https://github.com/tw4l/brunnhilde#installation](https://github.com/tw4l/brunnhilde#installation).
 
-If those instructions aren't working well, here is a [Windows-specific walkthrough of the installation process]({{ site.baseurl }}{% post_url 2025-02-10-guide-running-brunnhilde-windows %})
+If those instructions aren't working well, here is a [Windows-specific walkthrough of the installation process]({{< ref "guides/guide-running-brunnhilde-windows" >}}).
 
 # Check if the tools are running
 
 This screencast shows how to see if the tools are running:
 
 {{< youtube z1GOoispJ5k >}}
-
 
 # Running `brunnhilde.py`
 
