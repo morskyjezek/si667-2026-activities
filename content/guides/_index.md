@@ -3,11 +3,7 @@ title: "SI 667 Guides (Winter 2026)"
 hidePostList: true
 ---
 
-## Guides
-
-{{< section-list "guides" >}}
-
-## By Topic
+## Guides by Topic
 
 ### Shell / Command Line / BaSH
 
@@ -20,3 +16,7 @@ hidePostList: true
 ### Brunnhilde
 
 {{< tagged-posts "brunnhilde" >}}
+
+## All Guides
+
+{{< section-list "guides" >}}
