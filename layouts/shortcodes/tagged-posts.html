@@ -1,8 +1,12 @@
 {{ $tag := .Get 0 }}
 {{ $order := .Get 1 }}
+{{ $section := .Get 2 }}
 {{ with index site.Taxonomies.tags ($tag | urlize) }}
   <ul>
     {{ $pages := sort .Pages ".File.ContentBaseName" "asc" }}
+    {{ with $section }}
+      {{ $pages = where $pages "Section" . }}
+    {{ end }}
     {{ if eq $order "reverse" }}
       {{ $pages = $pages.Reverse }}
     {{ end }}
