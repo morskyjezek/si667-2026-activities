@@ -5,7 +5,7 @@
     <thead>
       <tr>
         <th>Lab</th>
-        <th>Questions</th>
+        <!-- <th>Questions</th> -->
         <th>Key</th>
       </tr>
     </thead>
@@ -18,8 +18,8 @@
         {{ if not (strings.HasSuffix .File.ContentBaseName "-key") }}
           {{ $keyPage := site.GetPage (printf "/%s/%s-key" $section .File.ContentBaseName) }}
           <tr>
-            <td>{{ .Title }}</td>
-            <td><a href="{{ .Permalink }}">Lab</a></td>
+            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+            <!-- <td><a href="{{ .Permalink }}">Lab</a></td> -->
             <td>
               {{ with $keyPage }}
                 <a href="{{ .Permalink }}">Key</a>
