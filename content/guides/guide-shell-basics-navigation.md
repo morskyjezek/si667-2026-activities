@@ -1,7 +1,7 @@
 ---
-title: 'Guide Shell Basics'
+title: 'Shell 1: Navigation and Inspection'
 categories: ['guides']
-tags: ['shell','bash']
+tags: ['shell','bash','ls','cd','pwd']
 ---
 
 _This guide is generally adapted to working in a UNIX environment using the bash shell, but there are various nods to Mac and Windows, which have some differences. Demonstrations during class assume use of Mac OS/Unix style terminal commands. However, commands for both unix and windows environments are offered below. See the linked resources at the bottom for greater detail._
