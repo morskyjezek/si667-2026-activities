@@ -13,15 +13,21 @@ This lab will allow you to explore concepts and tools related to various digital
 
 ### Q1.
 
-Use the `file` command to inspect files and create a MIME Type registry. For this question, use files in the `PKG-text-data` directory.
-  a. Create a command to run file with a filter (i.e., the `*`), so that the command outputs file type information for all of the files in the PKG-text-data/ directory thus printing file characterization information to the terminal display. Examine the results. These are all "text files" but there are different results. Can you identify different text encodings? What else does the output tell you about the files?
-  b. Reuse or revise the command you created above to output MIME Types for the files, then output the information to a file called `text-file-types.txt`. Provide the output file.
+Use the `file` command to inspect files and create a MIME Type registry. For this question, use files in the `PKG-text-data` directory.  
+
+a. Create a command to run file with a filter (i.e., the `*`), so that the command outputs file type information for all of the files in the `PKG-text-data/` directory thus printing file characterization information to the terminal display.  
+
+aa. Examine the results. These are all "text files" but they produce different responses when the command runs. Can you identify different text encodings? What else does the output tell you about the files?  
+
+b. Reuse or revise the command you created above to output MIME Types for the files, then output the information to a file called `text-file-types.txt`. Provide the output file.
 
 ### Q2.
 
-**Create checksums.** Checksums are algorithmically-generated strings that can be useful to track file fixity. In class, we discussed how to create an MD5 checksum (a specific algorithm also known as "message digest 5") for one or more files.
-  a. Use the md5 or md5sum command to create checksums for all of the files in the PKG-text-data directory. What command would you use?  
-  b. Output the list of checksums to a file called txt-file-checksums.txt. Provide the output file.
+**Create checksums.** Checksums are algorithmically-generated strings that can be useful to track file fixity. In class, we discussed how to create an [MD5 checksum](https://en.wikipedia.org/wiki/MD5) (a specific algorithm also known as "message digest 5," which produces a 128-bit value, calculated based on the values in a given bitstream, which is unique for that bitstream) for one or more files.  
+
+a. Use the `md5` or `md5sum` command to create checksums for all of the files in the `PKG-text-data/` directory. What command would you use?  
+
+b. Output the list of checksums to a file called `txt-file-checksums.txt`. Provide the output file.
 
 ### Q3.
 
