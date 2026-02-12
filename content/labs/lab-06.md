@@ -3,7 +3,7 @@ date: '2026-02-09T17:07:47-05:00'
 draft: galse
 title: 'Lab 06: CoreTrustSeal Hexagonal Thinking Diagram'
 categories: ['labs', 'labquestions']
-tags: []
+tags: ['cts','coretrustseal','certification']
 canvas_link: 'https://umich.instructure.com/courses/812017/assignments/3071108'
 ---
 
