@@ -1,6 +1,6 @@
 ---
 date: '2026-02-12T15:21:30-05:00'
-draft: true
+draft: false
 title: 'Lab 06 Key'
 categories: ['labs', 'labkey']
 tags: ['coretrustseal','certification']
