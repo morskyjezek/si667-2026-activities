@@ -30,7 +30,7 @@ These tools will generate reports about the files in the directory, so you will 
 *   Open the new file in a text editor (e.g., VS Code). How would you characterize the data presented in the file?
 *   Does anything strike you as particularly useful? What is odd or questionable about the output?
 
-**Problem 3:** Running Brunnhilde. Brunnhilde produces useful summary reports, as well as the detailed, item-level reports of Siegfried. Your task is to follow the steps demonstrated in the screencast to run brunnhilde.py to analyze the files in the sample file group (instructions on [the slide titled, "Run Brunnhilde"](https://docs.google.com/presentation/d/1gkuf7YhTOoab0q_JRHLZEAc_VTH76LszWAiTKWIBKyo/edit?usp=sharing)). Look at the files that were output when you ran the script, and answer the following:
+**Problem 3:** Running Brunnhilde. Brunnhilde produces useful summary reports, as well as the detailed, item-level reports of Siegfried. Your task is to follow the steps demonstrated in the screencast to run `brunnhilde.py` to analyze the files in the sample file group (instructions on [the slide titled, "Run Brunnhilde"](https://docs.google.com/presentation/d/1gkuf7YhTOoab0q_JRHLZEAc_VTH76LszWAiTKWIBKyo/edit?usp=sharing)). Look at the files that were output when you ran the script, and answer the following:
 
 1.  1.  What did the command do? (What files and directory have been created by the command? What do you see in the files?)
     2.  Focus on the `report.html` file that was created. Take a look at the report (open it in a browser to read it): are there duplicate files, if so, how many? What is the most common image type file (check the MIME Types)? What is the most common application type of file? 
