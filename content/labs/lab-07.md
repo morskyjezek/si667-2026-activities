@@ -22,7 +22,7 @@ These tools will generate reports about the files in the directory, so you will 
 
 **Problem 2:** Running Siegfried. Siegfried is a useful tool to create an inventory and a bulk process for file characterization information. Run the command on the `PKG-web-files-small` directory and output the reports to the `sf_out` directory.
 
-1.  At the prompt (located in the main file folder, likely called `si667-2026-main` directory), run the command `sf PKG-web-files-small/`. What did the command do? (What files and directory have been created by the command? What do you see in the files?)
+1.  At the prompt (located in the main file folder/directory, likely called `si667-2026-main`), run the command `sf PKG-web-files-small/`. What did the command do? (What files and directory have been created by the command? What do you see in the files?)
 2.  At the prompt, enter the following command: `sf PKG-web-files-small/ > sf_out/sf_fileid_report_202602.yaml`. Now what happens?
 3.  The previous command should have created some new files in the `sf_out` directory. Open the `sf_out` directory and look around. Answer the following:
 
