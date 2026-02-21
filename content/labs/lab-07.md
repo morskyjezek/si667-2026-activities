@@ -35,7 +35,6 @@ These tools will generate reports about the files in the directory, so you will 
 **Problem 3:** Running Brunnhilde. Brunnhilde produces useful summary reports, as well as the detailed, item-level reports of Siegfried. Your task is to follow the steps demonstrated in the screencast to run `brunnhilde.py` to analyze the files in the same folder as the previous step (i.e., the `PKG-web-files-small` folder; see general instructions on [the slide titled, "Run Brunnhilde"](https://docs.google.com/presentation/d/1gkuf7YhTOoab0q_JRHLZEAc_VTH76LszWAiTKWIBKyo/edit?usp=sharing)). Look at the files that were output when you ran the script, and answer the following:
 
 1.  1.  What did the command do? (What files and directory have been created by the command? What do you see in the files?)  
-_The command runs the brunnhilde tool and creates additional file characterization information and preservation metadata._
     2.  Focus on the `report.html` file that was created. Take a look at the report (open it in a browser to read it): are there duplicate files, if so, how many? What is the most common image type file (check the MIME Types)? What is the most common application type of file?  
     3.  Are there any duplicate files? If so, what are they named, and how do you think duplicates are identified here?
     4.  In the `report.html` file, look at any of the tables with an "ID" column. What is the information in this column? If you click on any of the links in these columns, where does it take you? What information can you learn at these links? 
