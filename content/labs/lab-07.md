@@ -13,7 +13,8 @@ Note: [this guide page on the course activities site demonstrates using Siegfrie
 
 ## Lab Questions
 
-We will review both of these tools in class, but this lab gives you the chance to explore them first on your own.
+We will review both of these tools in class, and then this lab
+is your chance to explore them on your own.
 
 **Problem 1:** Create directories to use for the reports, which will be the basis of your PDI.
 
