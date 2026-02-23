@@ -3,7 +3,7 @@ date: '2026-02-21T11:25:36-05:00'
 draft: true
 title: 'Lab 07 Key'
 categories: ['labs', 'labkey']
-tags: []
+tags: ['brunnhilde','siegfried','file characterization']
 canvas_link: ''
 ---
 
@@ -16,7 +16,7 @@ _Use the `mkdir` command to make two new directories in the course files folder,
 **Problem 2:** Running Siegfried. Siegfried is a useful tool to create an inventory and a bulk process for file characterization information. Run the command on the `PKG-web-files-small` directory and output the reports to the `sf_out` directory.
 
 1.  At the prompt (located in the main file folder/directory, likely called `si667-2026-main`), run the command `sf PKG-web-files-small/`. What did the command do? (What files and directory have been created by the command? What do you see in the files?)  
-_This command runs the Siegfried tool and initiates a Siegfried file identification report for the `PKG-web-files-small` directory, scanning each file contained in the directory. The tool generates a report on each file, which is formatted in a plain-text style called [YAML](https://en.wikipedia.org/wiki/YAML), and prints this report out to the terminal display. The first few lines of the output should look something like this:  
+_This command runs the Siegfried tool and initiates a Siegfried file identification report for the `PKG-web-files-small` directory, scanning each file contained in the directory. The tool generates a report on each file, which is formatted in a plain-text style called [YAML](https://en.wikipedia.org/wiki/YAML), and prints this report out to the terminal display. The first few lines of the output should look something like this:_  
 ```
 ---
 siegfried   : 1.11.4
@@ -73,13 +73,13 @@ matches  :
 ```
 2.  At the prompt, enter the following command: `sf PKG-web-files-small/ > sf_out/sf_fileid_report_202602.yaml`. Now what happens?  
 _This command repeats the previous step, but it adds an output so that instead of the report appearing in the display, it will be saved in the file named `sf_fileid_report_202602.yaml` in the `sf_out` folder/directory._
-3.  The previous command should have created a new file in the `sf_out` directory. Open the `sf_out` directory and look around. Answer the following:
+3.  The previous command should have created a new file in the `sf_out` directory. Open the `sf_out` directory and look around. Answer the following:  
 
-*   What did the command do?
-*   What does the file tell you?
-*   Open the new file in a text editor (e.g., VS Code). How would you characterize the data presented in the file?
-*   Does anything strike you as particularly useful? What is odd or questionable about the output?  
-_There are multiple answers this question, but some things to note include that the file is in YAML markup, it contains information about the Siegfried tool version that was used, it contains an entry about each file in the corresponding directory, and the report has file characterization information as well as information about how that information was determined (using a file extension or a format identification signature or 'magic number')._
+  * What did the command do?
+  * What does the file tell you?
+  * Open the new file in a text editor (e.g., VS Code). How would you characterize the data presented in the file?
+  * Does anything strike you as particularly useful? What is odd or questionable about the output?  
+  _There are multiple answers this question, but some things to note include that the file is in YAML markup, it contains information about the Siegfried tool version that was used, it contains an entry about each file in the corresponding directory, and the report has file characterization information as well as information about how that information was determined (using a file extension or a format identification signature or 'magic number')._
 
 **Problem 3:** Running Brunnhilde. Brunnhilde produces useful summary reports, as well as the detailed, item-level reports of Siegfried. Your task is to follow the steps demonstrated in the screencast to run `brunnhilde.py` to analyze the files in the same folder as the previous step (i.e., the `PKG-web-files-small` folder; see general instructions on [the slide titled, "Run Brunnhilde"](https://docs.google.com/presentation/d/1gkuf7YhTOoab0q_JRHLZEAc_VTH76LszWAiTKWIBKyo/edit?usp=sharing)). Look at the files that were output when you ran the script, and answer the following:
 
