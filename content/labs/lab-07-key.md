@@ -1,6 +1,6 @@
 ---
 date: '2026-02-21T11:25:36-05:00'
-draft: true
+draft: false
 title: 'Lab 07 Key'
 categories: ['labs', 'labkey']
 tags: ['brunnhilde','siegfried','file characterization']
