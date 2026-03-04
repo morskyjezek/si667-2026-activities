@@ -71,15 +71,14 @@ matches  :
     warning : 'extension mismatch'  
 ---
 ```
-2.  At the prompt, enter the following command: `sf PKG-web-files-small/ > sf_out/sf_fileid_report_202602.yaml`. Now what happens?  
+2. At the prompt, enter the following command: `sf PKG-web-files-small/ > sf_out/sf_fileid_report_202602.yaml`. Now what happens?  
 _This command repeats the previous step, but it adds an output so that instead of the report appearing in the display, it will be saved in the file named `sf_fileid_report_202602.yaml` in the `sf_out` folder/directory._
-3.  The previous command should have created a new file in the `sf_out` directory. Open the `sf_out` directory and look around. Answer the following:  
-
+3. The previous command should have created a new file in the `sf_out` directory. Open the `sf_out` directory and look around. Answer the following:  
   * What did the command do?
   * What does the file tell you?
   * Open the new file in a text editor (e.g., VS Code). How would you characterize the data presented in the file?
   * Does anything strike you as particularly useful? What is odd or questionable about the output?  
-  _There are multiple answers this question, but some things to note include that the file is in YAML markup, it contains information about the Siegfried tool version that was used, it contains an entry about each file in the corresponding directory, and the report has file characterization information as well as information about how that information was determined (using a file extension or a format identification signature or 'magic number')._
+  _There are multiple answers to this question, but some things to note include that the file is in YAML markup, it contains information about the Siegfried tool version that was used, it contains an entry about each file in the corresponding directory, and the report has file characterization information as well as information about how that information was determined (using a file extension or a format identification signature or 'magic number')._
 
 **Problem 3:** Running Brunnhilde. Brunnhilde produces useful summary reports, as well as the detailed, item-level reports of Siegfried. Your task is to follow the steps demonstrated in the screencast to run `brunnhilde.py` to analyze the files in the same folder as the previous step (i.e., the `PKG-web-files-small` folder; see general instructions on [the slide titled, "Run Brunnhilde"](https://docs.google.com/presentation/d/1gkuf7YhTOoab0q_JRHLZEAc_VTH76LszWAiTKWIBKyo/edit?usp=sharing)). Look at the files that were output when you ran the script, and answer the following:
 
